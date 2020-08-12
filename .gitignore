@@ -1,0 +1,4 @@
+.idea
+*.iml
+dependency-reduced-pom.xml
+src/main/resources/ApplicationProperties.json
