@@ -1,0 +1,17 @@
+[
+  {
+    "PropertyGroupId": "FlinkApplicationProperties",
+    "PropertyMap": {
+      "bootstrap.servers": "localhost:9092",
+      "group.id": "KafkaStreamingDemo",
+      "input_stream": "flink_input",
+      "output_stream": "flink_output",
+      "elasticsearch_endpoint": "http://localhost:9200",
+      "elasticsearch_anonymous": "false",
+      "elasticsearch_user": "",
+      "elasticsearch_password": "",
+      "elasticsearch_word_count_index": "word_count",
+      "aws.region": "eu-west-1"
+    }
+  }
+]
